@@ -22,13 +22,18 @@ body {
 
 }
 
-
-.photos {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 200px);
-    grid-gap: 20px
-    
-
+input{
+   padding-left: 10px;
 
 }
+
+
+.gallery {
+    max-width: 920px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-row-gap: 25px;
+    margin: 40px auto; 
+}
+
